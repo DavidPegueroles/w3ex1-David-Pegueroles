@@ -1,4 +1,6 @@
-const unaVariableQueAlmaceneEsteArray = [
+import arrayToObject from "./modules/module.js";
+
+const patients = [
   {
     patient: {
       name: "Luis",
@@ -54,3 +56,5 @@ const unaVariableQueAlmaceneEsteArray = [
     diet: "Salt free",
   },
 ];
+
+export default patients;

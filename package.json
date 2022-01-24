@@ -1,0 +1,41 @@
+{
+  "name": "ex1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest —-watchAll —-verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DavidPegueroles/w3ex1-David-Pegueroles.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "babel": {
+    "env": {
+      "test": {
+        "plugins": [
+          "@babel/plugin-transform-modules-commonjs"
+        ]
+      }
+    }
+  },
+  "jest": {
+    "testEnvironment": "jsdom"
+  },
+  "bugs": {
+    "url": "https://github.com/DavidPegueroles/w3ex1-David-Pegueroles/issues"
+  },
+  "homepage": "https://github.com/DavidPegueroles/w3ex1-David-Pegueroles#readme",
+  "devDependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.16.8",
+    "@types/jest": "^27.4.0",
+    "eslint": "^8.7.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.25.4",
+    "jest": "^27.4.7"
+  }
+}
